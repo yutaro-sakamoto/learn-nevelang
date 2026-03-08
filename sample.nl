@@ -5,6 +5,6 @@ module neverlang.examples.loglang.Task {
                CmdList <-- Cmd;
     }
     role (execution) {
-        [TASK](1) .{ System.out.println("executing task " + $TASK[1].identifier) }.
+        [TASK](1) .{ System.out.println("executing task " + $TASK[1].identifier); }.
     }
 }
